@@ -17,15 +17,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-prettier-build`,
-      options: {
-        // default values
-        types: ["html", "js", "css"],
-        concurrency: 20,
-        verbose: true,
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
